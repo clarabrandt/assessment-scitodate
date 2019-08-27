@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  height: 300px;
+  background-color: #240121;
+  display: flex;
+  justify-content: center;
+  
+}
+.banner-title {
+  color: white;
+  font-size: 3rem;
+ 
+
+
+}
