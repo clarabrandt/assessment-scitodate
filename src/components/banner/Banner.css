@@ -1,15 +1,20 @@
 .banner {
   width: 100%;
-  height: 300px;
-  background-color: #240121;
+  height: 100px;
+  /* background-color: #240121; */
+  background-color: red;
+  align-items: center;
   display: flex;
-  justify-content: center;
   
 }
-.banner-title {
-  color: white;
-  font-size: 3rem;
- 
-
+.logo-icon{
+  padding-left: 30px;
 
 }
+.banner-title {
+
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 470px;
+}
+

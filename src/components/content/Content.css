@@ -1,38 +1,83 @@
 .content {
   height: 100vh;
-  background-color: antiquewhite;
+ 
 }
 .content-title {
-  font-size: 2rem;
-  color: #ff292d;
+  background-color: antiquewhite;
+  font-size: 1.3rem;
+  color: black;
   font-weight: bold;
-  margin-bottom: 50px;
+  align-items: center;
+  padding: 50px 0;
 }
-.content-main {
+.content-layout {
+  display: flex;
+  height: 100%;
+  background-color: white;
+ 
+}
+.content-side {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  width: 20%;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding: 50px 200px;
-  background-color: white;
+  justify-content: flex-start
 }
-.content-options {
-  display: flex;
-  justify-content: center;
+.content-side--title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  
 }
 .content-option--ac,
 .content-option--ees {
-  font-size: 2rem;
-  padding: 10px;
+  font-size: 1.2rem;
+  padding: 20px;
   cursor: pointer;
 }
-.content-option--ac {
-  padding-right: 20px;
+.content-option--ac:hover,
+.content-option--ees:hover {
+  background-color: lightgrey;
 }
 .content-option {
   font-size: 2rem;
-  align-self: center;
+  
 }
-.content-table {
+.content-list--items-item {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 25px;
+}
+.content-list--items-item:hover {
+  border: 1px solid red;
+  
+}
+.content-list--items-name {
+  font-size: 1.1rem;
+  border-bottom: 1px solid black;
+  text-align: initial;
+  font-weight: 600;
+}
+.content-list--items-un {
+  text-align: initial;
+  padding: 7px 0;
+  color: grey;
+}
+.content-list--items-paper{
+  text-align: initial;
+}
+
+.paper-title {
+  font-weight: 500;
+}
+.paper-date {
+font-size: 0.9rem;
+padding: 7px 0;
+
+}
+/* .content-table {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -45,20 +90,4 @@
 }
 .data-input {
   height: 100px;
-}
-.content-main {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 200px;
-  
-}
-    .content-table-content {
-      display: flex;
-      
-    }
-    .content-main2 {
-      display: flex;
-      flex-direction: column;
-      padding: 20px 0;
-      
-    }
+} */
