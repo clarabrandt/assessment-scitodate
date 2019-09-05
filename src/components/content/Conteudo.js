@@ -94,8 +94,7 @@ componentDidMount(){
                         <div key={paper.id} className='paper-details'>
                         <div className='paper-title'>{paper.title}</div>
                         <div className='paper-date'>Publication date: {paper.date}</div>
-                        <div>{paper.link}</div>
-                        <img className='paper-icon' src={paperIcon} width="28" height="28" alt="paper" />
+                        <a target="_blank" rel="noopener noreferrer" href={paper.link}><img className='paper-icon' src={paperIcon} width="28" height="28" alt="paper" /></a>
                         </div>
                         )
                       })} 
