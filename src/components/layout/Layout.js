@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './Layout.css'
 import Banner from '../banner/Banner'
-// import Content from '../content/Content'
-import Conteudo from '../content/Conteudo'
+import Content from '../content/Content'
+
 
 
 
@@ -11,8 +11,8 @@ export default class Layout extends Component {
     return (
       <div>
         <Banner />
- {     /*<Content />*/}
-        <Conteudo />
+        <Content/>
+     
       </div>
     )
   }
